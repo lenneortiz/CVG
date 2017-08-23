@@ -1,0 +1,1 @@
+[{"name":"operativo","data":["6"]},{"name":"inoperativo","data":["1"]},{"name":"regular","data":["1"]}]

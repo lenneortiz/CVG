@@ -1,0 +1,17 @@
+Options -Multiviews
+
+RewriteEngine On
+
+php_value upload_max_filesize 10M
+php_value memory_limit 500M
+php_value max_execution_time 6000000
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-1
+
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+
+ErrorDocument 400 "Error 400. Contactar al administrador."
+ErrorDocument 401 "Error 401. Contactar al administrador."
+ErrorDocument 404 http://localhost/php/mvc7/views/error/index.php

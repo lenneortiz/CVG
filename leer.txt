@@ -1,0 +1,22 @@
+-Creación de la clase View en el archivo View.php para la carga de las vistas
+,la creación de la clase userModel en el archivo userModel.php,como cargar los modelos
+ y como pasarle parametros a la clase,Conexion a mysql con la clase PDO
+ en el archvio Database.php
+
+-Creación de las vistas en  carperta views
+nota:por cada controlador que se cree se debe crear una vista para el mismo.
+Ejemplo:si se crea un controlador llamado indexController se de bebe
+crear,una carpeta en el direcctorio views llamada index y dentro de ella
+un archivo llamado con el mismo nombre del metodo del  controlador invocado.
+ejemplo:si tenemos un controlador llamado indexController
+y tiene un metodo llamado index  para poder llamar a una vista
+en este controlador y cargarla en el metodo index se debe crear una directorio
+llamado index y dentro de el un archivo con el nombre del metodo a invocar
+en este caso index.php por que asi es como se llama el metodo.
+si el controlador se llama userController se debe de igual forma crear
+un directorio llamado user dentro del directorio views y dentro del directorio
+user todos los archivos con los metodos que contiene el userController,
+
+
+
+-Modelos y librerías
